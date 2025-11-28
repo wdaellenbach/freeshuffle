@@ -25,4 +25,5 @@ app.get("/api/clientIP", (req, res) => {
   res.send({ ip: req.ip });
 });
 
-app.listen(port, () => console.log(`Listening on port ${port}`));
+// app.listen(port, () => console.log(`Listening on port ${port}`));
+module.exports = app;
